@@ -1,0 +1,42 @@
+.link {
+  line-height: 1.6;
+  font-size: var(--font-size-link);
+  font-weight: 700;
+
+  span {
+    border-bottom: 1px solid currentColor;
+    transition: all 0.4s;
+  }
+  &:hover span {
+    border-bottom: 1px solid transparent;
+  }
+}
+.btn {
+  border-radius: 100px;
+  padding: 0.35em 1.62em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  font-weight: 700;
+  span {
+    margin-right: 0.5rem;
+  }
+  &--full-dark {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+  }
+  &--full-light {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+  }
+  &--outlined-light {
+    padding: 0.6em 1.8em;
+    font-size: 1.6rem;
+    letter-spacing: 0;
+    font-weight: 800;
+    background-color: transparent;
+    color: var(--color-light);
+    border: 4px solid currentColor;
+  }
+}

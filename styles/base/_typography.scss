@@ -1,0 +1,27 @@
+body {
+  font-size: 1.6rem;
+  font-family: "Sen", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--color-dark);
+  letter-spacing: -0.4px;
+}
+.heading-2 {
+  font-size: var(--font-size-heading-2);
+  font-weight: 700;
+  line-height: var(--line-height-heading);
+  font-family: var(--font-family-secondary);
+}
+
+.heading-3 {
+  font-size: var(--font-size-heading-3);
+}
+
+.heading-4 {
+  font-size: var(--font-size-heading-4);
+  letter-spacing: -1px;
+}
+
+.p {
+  line-height: var(--line-height-tight);
+}

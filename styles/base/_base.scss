@@ -1,0 +1,107 @@
+:root {
+  /* Colors */
+  --color-dark: #000000;
+  --color-light: #ffffff;
+  --color-bg-primary: #ffffff;
+  // --color-header: rgb(238, 217, 175);
+  --color-footer: #000000;
+  --color-grey-light: #f5f5f5;
+  --color-placeholder: #a2a2a2;
+  --color-shadow: rgba(0, 0, 0, 0.8);
+  --color-error: red;
+
+  /* Fonts */
+  --font-family-primary: "Sen", sans-serif;
+  --font-family-secondary: "Open Sans", sans-serif;
+  --font-family-tertiary: serif;
+  --font-size-link: 1.5rem;
+  --font-size-base: 1.6rem;
+  --font-size-heading-2: 3.8rem;
+  --font-size-heading-3: 3.4rem;
+  --font-size-heading-4: 2.4rem;
+  --font-size-small: 1.25rem;
+
+  /* Spaces */
+  --space-md: 2.6rem;
+  --space-lg: 5rem;
+  --space-xl: 10rem;
+  --gutter-horizontal-container-md: 0 7rem;
+
+  /* Line Heights */
+  --line-height-base: 1.6;
+  --line-height-tight: 1.25;
+  --line-height-heading: 1;
+
+  /* Shadows */
+  --box-shadow-header: 2rem 0 10rem var(--color-shadow);
+
+  /* Border radius */
+  --border-radius:5px;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-size: var(--font-size-base);
+  font-family: var(--font-family-primary);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--color-dark);
+  letter-spacing: -0.4px;
+  overflow-x: hidden;
+  background-color: var(--color-bg-primary);
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  font-size: inherit;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+form,
+input,
+textarea,
+select,
+button,
+label {
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  background-color: transparent;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  fill: var(--color-dark);
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
